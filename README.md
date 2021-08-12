@@ -15,7 +15,7 @@ He hopes to get a lot of candy.
 ```
 
 ## Dataset - ROCStories Corpus
-Existing SEG works all utilizes **ROCStories Corpus** to evaluate performances of SEG model. Specifically, the **ROCStories Corpus** contains 98,162 five-sentence stories, in which the first four sentences is used as story context while the last sentence is regarded as story ending sentence.
+Existing SEG works all utilizes **ROCStories Corpus** to evaluate performances of SEG model. Specifically, the **ROCStories Corpus** contains 98,162 five-sentence stories, in which the first four sentences is used as story context while the last one is regarded as story ending sentence.
 
 ## Models
 | Paper | Conference/Journal | Citation Count | Code | Tags |
