@@ -31,7 +31,7 @@ Existing SEG works all utilizes **ROCStories Corpus** to evaluate performances o
 | [Incorporating sentimental trend into gated mechanism based transformer network for story ending generation](https://www.sciencedirect.com/science/article/abs/pii/S0925231221000618) | Neurocomputing 2021 | 0 | - |`arch-Transformer`、`info-Sentiment`、`train-MLE` |
 
 The concepts used in Tags are illustrated as follows:  
-- arch：The architecture of the model, includes `arch-LSTM`、`arch-GRU`、`arch-Transformer`、`arch-GCN` tags.
-- train：The training strategy of the model, includes `train-MLE`、`train-GAN`、`train-ITF` tags.
-- info：The additional infomation used in SEG, includes `info-Keywords`、`info-Sentiment`、`info-knowledge`、`info-DP` (Dependency Parsing) 
-- task：`task-Metric` indicates the evaluation work.
+- arch：The architecture of the model, includes `arch-LSTM`、`arch-GRU`、`arch-Transformer` and `arch-GCN` tags.
+- train：The training strategy of the model, includes `train-MLE`、`train-GAN` and `train-ITF` tags.
+- info：The additional infomation used in SEG, includes `info-Keywords`、`info-Sentiment`、`info-knowledge`、`info-DP` (Dependency Parsing) and `info-Controllable` tags.
+- task：`task-Metric` tag indicates the evaluation work.
