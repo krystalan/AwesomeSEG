@@ -9,7 +9,7 @@ Jack is so excited to go trick or treating tonight.
 He is going to dress up like a monster.
 The costume is real scary.
 ```
-We hope the SEG model could generate an reasonable ending for above story, such as:  
+We hope the SEG model could generate a reasonable ending for the above story, such as:  
 ```
 He hopes to get a lot of candy.
 ```
