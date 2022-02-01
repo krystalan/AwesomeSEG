@@ -21,7 +21,7 @@ He hopes to get a lot of candy.
 ### 1.1 Dataset - ROCStories Corpus
 Existing SEG works all utilize **ROCStories Corpus** to evaluate performances of SEG model. Specifically, the **ROCStories Corpus** contains 98,162 five-sentence stories, in which the first four sentences is used as story context while the last one is regarded as story ending sentence.
 
-### 1.2 Models
+### 1.2 Existing Work
 | Paper | Conference/Journal | Results (BLEU-1/2) | Evaluation Tools | Code | Tags |
 | :--: | :--: | :--: | :--: | :--: | :--: |
 | [From Plots to Endings: A Reinforced Pointer Generator for Story Ending Generation](https://arxiv.org/abs/1901.03459) | NLPCC 2018 | 28.51/11.92 | [nlg-eval](https://github.com/Maluuba/nlg-eval) | [SEG](https://github.com/blcunlp/SEG) ![](https://img.shields.io/github/stars/blcunlp/SEG.svg?style=social) |`arch-LSTM`、`train-MLE`|
