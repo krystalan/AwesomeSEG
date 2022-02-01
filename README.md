@@ -1,5 +1,6 @@
 # AwesomeSEG
-This repo is our research summary for Story Ending Generation. (still updating)  
+This repo is our research summary for Story Ending Generation.
+Contents:  
 1. [SEG Survey](https://github.com/krystalan/AwesomeSEG#1seg-task)
 2. [SHGN (DASFAA'22)](https://github.com/krystalan/AwesomeSEG#2shgn)
 
