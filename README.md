@@ -1,7 +1,7 @@
 # AwesomeSEG
 This repo is our research summary for Story Ending Generation. (still updating)
 
-## SEG Task
+## 1.SEG Task
 Story ending generation is the task of generating an ending sentence of a story given a story context. For example, given the story context:
 ```
 Today is Halloween. 
@@ -14,10 +14,10 @@ We hope the SEG model could generate a reasonable ending for the above story, su
 He hopes to get a lot of candy.
 ```
 
-## Dataset - ROCStories Corpus
+### 1.1 Dataset - ROCStories Corpus
 Existing SEG works all utilize **ROCStories Corpus** to evaluate performances of SEG model. Specifically, the **ROCStories Corpus** contains 98,162 five-sentence stories, in which the first four sentences is used as story context while the last one is regarded as story ending sentence.
 
-## Models
+### 1.2 Models
 | Paper | Conference/Journal | Results (BLEU-1/2) | Evaluation Tools | Code | Tags |
 | :--: | :--: | :--: | :--: | :--: | :--: |
 | [From Plots to Endings: A Reinforced Pointer Generator for Story Ending Generation](https://arxiv.org/abs/1901.03459) | NLPCC 2018 | 28.51/11.92 | [nlg-eval](https://github.com/Maluuba/nlg-eval) | [SEG](https://github.com/blcunlp/SEG) ![](https://img.shields.io/github/stars/blcunlp/SEG.svg?style=social) |`arch-LSTM`、`train-MLE`|
@@ -37,5 +37,5 @@ The concepts used in Tags are illustrated as follows:
 - info：The additional infomation used in SEG, includes `info-Keywords`、`info-Sentiment`、`info-knowledge`、`info-DP` (Dependency Parsing) and `info-Controllable` tags.
 - task：`task-Metric` tag indicates the evaluation work.
 
-## SHGN (DASFAA'22)
+## 2.SHGN
 
