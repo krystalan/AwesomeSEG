@@ -29,9 +29,13 @@ Existing SEG works all utilize **ROCStories Corpus** to evaluate performances of
 | [Toward a Better Story End: Collecting Human Evaluation with Reasons](https://aclanthology.org/W19-8646/) | INLG 2019 | - | - | [SEG_HumanEvaluationReasons](https://github.com/mil-tokyo/SEG_HumanEvaluationReasons) ![](https://img.shields.io/github/stars/mil-tokyo/SEG_HumanEvaluationReasons.svg?style=social) | `task-Metric` |
 | [Story Ending Generation with Multi-Level Graph Convolutional Networks over Dependency Trees](https://ojs.aaai.org/index.php/AAAI/article/view/17545) | AAAI 2021 | 24.6/8.6 | - | [MLGCN-DP](https://github.com/VISLANG-Lab/MLGCN-DP) ![](https://img.shields.io/github/stars/VISLANG-Lab/MLGCN-DP.svg?style=social) | `arch-LSTM`、`arch-GCN`、`info-DP`、`train-MLE` |
 | [Incorporating sentimental trend into gated mechanism based transformer network for story ending generation](https://www.sciencedirect.com/science/article/abs/pii/S0925231221000618) | Neurocomputing 2021 | 27.03/7.62 | - | - |`arch-Transformer`、`info-Sentiment`、`train-MLE` |
+| [Incorporating Commonsense Knowledge into Story Ending Generation via Heterogeneous Graph Networks](https://arxiv.org/abs/2201.12538) | DASFAA 2022 | 25.6/9.4 | nlg-eval & py-rouge | [SHGN](https://github.com/krystalan/AwesomeSEG) | `arch-Transformer`、`arch-gat`、`info-Sentiment`、`info-knowledge` |
 
 The concepts used in Tags are illustrated as follows:  
 - arch：The architecture of the model, includes `arch-LSTM`、`arch-GRU`、`arch-Transformer` and `arch-GCN` tags.
 - train：The training strategy of the model, includes `train-MLE`、`train-GAN` and `train-ITF` tags.
 - info：The additional infomation used in SEG, includes `info-Keywords`、`info-Sentiment`、`info-knowledge`、`info-DP` (Dependency Parsing) and `info-Controllable` tags.
 - task：`task-Metric` tag indicates the evaluation work.
+
+## SHGN (DASFAA'22)
+
