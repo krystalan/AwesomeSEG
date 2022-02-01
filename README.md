@@ -1,5 +1,7 @@
 # AwesomeSEG
-This repo is our research summary for Story Ending Generation. (still updating)
+This repo is our research summary for Story Ending Generation. (still updating)  
+1. [SEG Survey](https://github.com/krystalan/AwesomeSEG#1seg-task)
+2. [SHGN (DASFAA'22)](https://github.com/krystalan/AwesomeSEG#2shgn)
 
 ## 1.SEG Task
 Story ending generation is the task of generating an ending sentence of a story given a story context. For example, given the story context:
