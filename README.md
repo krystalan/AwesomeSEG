@@ -42,4 +42,10 @@ The concepts used in Tags are illustrated as follows:
 - task：`task-Metric` tag indicates the evaluation work.
 
 ## 2.SHGN
+We provide the codes and generated results of the DASFAA 2022 paper [*Incorporating Commonsense Knowledge into Story Ending Generation via Heterogeneous Graph Networks*](https://arxiv.org/abs/2201.12538).
 
+### 2.1 Codes
+Comming Soon!
+
+### 2.2 Generated results
+Comming Soon!
