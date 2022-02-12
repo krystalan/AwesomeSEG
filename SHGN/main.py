@@ -203,6 +203,12 @@ class SEHGN(pl.LightningModule):
 		generated_endings = self.forward(*batch, is_Train=False)
 		return {'generate':generated_endings}
 
+	def test_step(self, batch, batch_nb):
+		return self.validation_step(batch, batch_nb)
+
+	def test_epoch_end(self, outputs):
+		result = self.validation_epoch_end(outputs)
+
 	def validation_epoch_end(self, outputs):
 		endings = []
 		for item in outputs:
@@ -239,6 +245,9 @@ class SEHGN(pl.LightningModule):
 	def val_dataloader(self):
 		return self._get_dataloader('val', False, self.args.batch_size)
 
+	def test_dataloader(self):
+		return self._get_dataloader('test', False, self.args.batch_size)
+
 
 
 
@@ -270,10 +279,11 @@ def main(args):
 		callbacks=checkpoint_callback,
 		# resume_from_checkpoint = 'output/ESHGN/checkpoints/last.ckpt'
 	)
-	trainer.fit(
-		model
-	)
-	# trainer.validate(model)
+	if not args.test:
+		trainer.fit(model)
+	else:
+		trainer.test(model)
+
 
 
 
@@ -293,6 +303,7 @@ def add_model_specific_args(parser):
 	parser.add_argument("--graph_heads", type=int, default=8, help="Multi-head of Heterogeneous Graph Transformer")
 	parser.add_argument("--device_id", type=int, default=0)
 	parser.add_argument("--max_word_node_num", type=int, default=26)
+	parser.add_argument("--test", action='store_true', help="Test only, no training")
 
 	return parser
 
