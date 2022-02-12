@@ -48,4 +48,4 @@ We provide the codes and generated results of the DASFAA 2022 paper [*Incorporat
 Please refer to the [SHGN](https://github.com/krystalan/AwesomeSEG/tree/main/SHGN) directory.
 
 ### Generated results
-The generated results of our SHGN are available at [SHGN.txt](https://github.com/krystalan/AwesomeSEG/blob/main/results/SHGN.txt). For details of the evaluation, please refer to the [results](https://github.com/krystalan/AwesomeSEG/tree/main/results) directory.
+The generated results of our SHGN are available at [SHGN.txt](https://github.com/krystalan/AwesomeSEG/blob/main/results/SHGN.txt). (To reproduce the evaluation scores of our paper, please use [nlg-eval](https://github.com/Maluuba/nlg-eval) and [py-rouge](https://github.com/Diego999/py-rouge) toolkit to calculate BLEU and ROUGE scores, respectively.)
