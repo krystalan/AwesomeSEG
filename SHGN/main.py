@@ -33,8 +33,8 @@ class ROCDataset(Dataset):
 
 		self.device = torch.device("cuda:%d"%device_id if torch.cuda.is_available() else "cpu")
 
-		self.tokenizer = AutoTokenizer.from_pretrained("model/sup-simcse-roberta-base")
-		self.model = AutoModel.from_pretrained("model/sup-simcse-roberta-base").to(self.device)
+		self.tokenizer = AutoTokenizer.from_pretrained("princeton-nlp/sup-simcse-roberta-base")
+		self.model = AutoModel.from_pretrained("princeton-nlp/sup-simcse-roberta-base").to(self.device)
 
 		for p in self.model.parameters():
 			p.requires_grad = False
