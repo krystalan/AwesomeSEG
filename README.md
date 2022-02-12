@@ -44,8 +44,8 @@ The concepts used in Tags are illustrated as follows:
 ## 2.SHGN
 We provide the codes and generated results of the DASFAA 2022 paper [*Incorporating Commonsense Knowledge into Story Ending Generation via Heterogeneous Graph Networks*](https://arxiv.org/abs/2201.12538).
 
-### 2.1 Codes
+### Codes
 Please refer to the [SHGN](https://github.com/krystalan/AwesomeSEG/tree/main/SHGN) directory.
 
-### 2.2 Generated results
+### Generated results
 The generated results of our SHGN are available at [SHGN.txt](https://github.com/krystalan/AwesomeSEG/blob/main/results/SHGN.txt).
