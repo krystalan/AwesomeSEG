@@ -21,7 +21,7 @@ python main.py --test
 ```
 
 
-## Acknowledgement
+## Acknowledgment
 Thanks for the following wonderful work that inspired us:
 - [DHGN](https://github.com/xcfcode/DHGN) (CCL'21)
 - [SimCSE](https://github.com/princeton-nlp/SimCSE) (EMNLP'21)
