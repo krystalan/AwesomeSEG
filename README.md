@@ -34,7 +34,7 @@ Existing SEG works all utilize **ROCStories Corpus** to evaluate performances of
 | [Story Ending Generation with Multi-Level Graph Convolutional Networks over Dependency Trees](https://ojs.aaai.org/index.php/AAAI/article/view/17545) | AAAI 2021 | 24.6/8.6 | - | [MLGCN-DP](https://github.com/VISLANG-Lab/MLGCN-DP) ![](https://img.shields.io/github/stars/VISLANG-Lab/MLGCN-DP.svg?style=social) | `arch-LSTM`、`arch-GCN`、`info-DP`、`train-MLE` |
 | [Incorporating sentimental trend into gated mechanism based transformer network for story ending generation](https://www.sciencedirect.com/science/article/abs/pii/S0925231221000618) | Neurocomputing 2021 | 27.03/7.62 | - | - |`arch-Transformer`、`info-Sentiment`、`train-MLE` |
 | [Incorporating Commonsense Knowledge into Story Ending Generation via Heterogeneous Graph Networks](https://arxiv.org/abs/2201.12538) | DASFAA 2022 | 25.6/9.4 | nlg-eval & py-rouge | [SHGN](https://github.com/krystalan/AwesomeSEG) | `arch-Transformer`、`arch-gat`、`info-Sentiment`、`info-knowledge` |
-| [CLseg: Contrastive Learning of Story Ending Generation](https://ieeexplore.ieee.org/document/9747435) | ICASSP 2022 | | | | |
+| [CLseg: Contrastive Learning of Story Ending Generation](https://ieeexplore.ieee.org/document/9747435) | ICASSP 2022 | | | [CLSEG](https://github.com/IndexFziQ/CLSEG) | |
 
 The concepts used in Tags are illustrated as follows:  
 - arch：The architecture of the model, includes `arch-LSTM`、`arch-GRU`、`arch-Transformer` and `arch-GCN` tags.
